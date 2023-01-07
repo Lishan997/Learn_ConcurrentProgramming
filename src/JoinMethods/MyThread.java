@@ -11,5 +11,8 @@ public class MyThread implements Runnable{
                 e.printStackTrace(); // something can interrupt thread sleep, if interrupted then this thread again go to the runnable state
             }
         }
+
+        System.out.println(Thread.currentThread().getName() + " state is : " + Thread.currentThread().getState());
+        System.out.println(Thread.currentThread().getName() + " is live ?  : " + Thread.currentThread().isAlive());
     }
 }

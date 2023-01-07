@@ -2,15 +2,31 @@ package JoinMethods;
 
 public class MainApp {
     public static void main(String[] args) {
+
+        System.out.println(Thread.currentThread().getName() + " thread state is : " + Thread.currentThread().getState());
+        System.out.println(Thread.currentThread().getName() + " thread is live ?  : " + Thread.currentThread().isAlive());
+
         Runnable r1 = new MyThread();
         Thread t1 = new Thread(r1, "Thread 01");
+
+        System.out.println("Thread 01" + " state is : " + t1.getState());
+        System.out.println("Thread 01" + " is live ?  : " + t1.isAlive());
+
         t1.start();
 
+        System.out.println("Thread 01" + " state is : " + t1.getState());
+        System.out.println("Thread 01" + " is live ?  : " + t1.isAlive());
         try {
             //t1.join();
             // who calls the join() on t1? the main thread, there for the main thread give up processor time and goes in to WAITING and let the thread which join is called allowed to execute until its complete the execution,
             // in our case it is the t1, once the execution is over the main thread is join back.
             t1.join(500);
+
+            System.out.println(Thread.currentThread().getName() + " thread state is : " + Thread.currentThread().getState());
+            System.out.println(Thread.currentThread().getName() + " thread is live ?  : " + Thread.currentThread().isAlive());
+
+            System.out.println("Thread 01" + " state is : " + t1.getState());
+            System.out.println("Thread 01" + " is live ?  : " + t1.isAlive());
             //when we use t1.join(t) Main thread is in timed waiting state to complete t1 task or time expire, what ever happened first
 
 //            t1.join(500);
@@ -53,5 +69,11 @@ public class MainApp {
                 e.printStackTrace();
             }
         }
+
+        System.out.println(Thread.currentThread().getName() + " thread state is : " + Thread.currentThread().getState());
+        System.out.println(Thread.currentThread().getName() + " thread is live ?  : " + Thread.currentThread().isAlive());
+
+        System.out.println("Thread 01" + " state is : " + t1.getState());
+        System.out.println("Thread 01" + " is live ?  : " + t1.isAlive());
     }
 }
