@@ -7,3 +7,8 @@ Learn Concurrent Programming Concepts and Create Multi threaded applications
 
 ![img_2.png](img_2.png)
 
+![img_3.png](img_3.png)
+
+For each lock there is separate queue, if 5 locks then 5 queue
+
+
