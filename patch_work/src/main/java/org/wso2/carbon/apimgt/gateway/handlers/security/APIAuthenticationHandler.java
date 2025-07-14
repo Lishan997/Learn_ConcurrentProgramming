@@ -124,7 +124,7 @@ public class APIAuthenticationHandler extends AbstractHandler implements Managed
                 logMessageDetails(messageContext);
             }
             log.error("API authentication failure", e);
-            log.error("messageContext", messageContext);
+            log.error("messageContext=" + messageContext);
             handleAuthFailure(messageContext, e);
         }
         return false;
