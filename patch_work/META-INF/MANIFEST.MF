@@ -1,0 +1,213 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.apimgt.gateway.mediators;uses:="org.ap
+ ache.commons.logging,org.wso2.carbon.apimgt.gateway.handlers.security
+ ,org.apache.synapse.core.axis2,org.apache.commons.codec.digest,org.ap
+ ache.axis2.context,org.apache.commons.codec.binary,org.apache.synapse
+ ,org.apache.synapse.core,org.apache.synapse.mediators";version="5.0.3
+ ",org.wso2.carbon.apimgt.gateway.handlers.security.oauth;uses:="org.a
+ pache.commons.logging,org.wso2.carbon.apimgt.gateway.handlers,org.wso
+ 2.carbon.apimgt.gateway.handlers.security,org.apache.synapse.core.axi
+ s2,org.wso2.carbon.apimgt.impl,org.apache.axis2.context,org.wso2.carb
+ on.apimgt.impl.utils,org.wso2.carbon.apimgt.impl.dto,org.apache.synap
+ se,org.apache.axis2.engine,org.wso2.carbon.apimgt.api,org.apache.syna
+ pse.core,org.apache.synapse.config";version="5.0.3",org.wso2.carbon.a
+ pimgt.gateway.handlers.common;uses:="org.apache.synapse,org.apache.sy
+ napse.rest";version="5.0.3",org.wso2.carbon.apimgt.gateway;version="5
+ .0.3",org.wso2.carbon.apimgt.gateway.handlers.security.keys;uses:="or
+ g.wso2.carbon.apimgt.api.model.xsd,org.apache.axis2,org.wso2.carbon.a
+ pimgt.keymgt.stub.validator,org.apache.commons.logging,org.wso2.carbo
+ n.apimgt.api.model,org.wso2.carbon.apimgt.impl.dto.xsd,org.apache.com
+ mons.pool.impl,org.wso2.carbon.apimgt.gateway.handlers.security,org.a
+ pache.commons.pool,org.apache.axis2.client,org.wso2.carbon.apimgt.imp
+ l,org.apache.axis2.context,org.apache.commons.httpclient,org.wso2.car
+ bon.apimgt.impl.dto,edu.emory.mathcs.backport.java.util,org.wso2.carb
+ on.apimgt.api,org.wso2.carbon.apimgt.impl.dao,org.wso2.carbon.utils";
+ version="5.0.3",org.wso2.carbon.apimgt.gateway.handlers.security.thri
+ ft;uses:="org.apache.commons.logging,org.apache.commons.pool.impl,org
+ .apache.thrift.protocol,org.apache.http.client,org.apache.http.impl.c
+ onn,org.apache.thrift.transport,org.apache.thrift,org.wso2.carbon.api
+ mgt.impl.dto,org.apache.http.conn,org.apache.http.impl.client,org.wso
+ 2.carbon.apimgt.impl.generated.thrift,org.apache.thrift.async,javax.n
+ et.ssl,org.apache.http.conn.scheme,org.wso2.carbon.apimgt.api.model,o
+ rg.wso2.carbon.apimgt.gateway.handlers.security.keys,org.wso2.carbon.
+ apimgt.gateway.handlers.security,org.apache.commons.pool,org.wso2.car
+ bon.apimgt.impl,org.apache.http.conn.ssl,org.slf4j,org.apache.thrift.
+ meta_data,org.wso2.carbon.base";version="5.0.3",org.wso2.carbon.apimg
+ t.gateway.handlers.logging;uses:="org.apache.axis2,org.apache.synapse
+ ,org.apache.commons.logging,org.apache.synapse.core.axis2,org.apache.
+ axis2.context,org.apache.synapse.rest,org.apache.commons.lang";versio
+ n="5.0.3",org.wso2.carbon.apimgt.gateway.handlers;uses:="org.apache.a
+ xis2.addressing,org.apache.axis2,org.apache.commons.logging,org.apach
+ e.synapse.core.axis2,org.wso2.carbon.apimgt.impl,org.apache.axis2.con
+ text,javax.xml.namespace,org.apache.axiom.om,org.wso2.carbon.apimgt.i
+ mpl.dto,org.apache.axiom.soap,org.apache.synapse,org.apache.synapse.c
+ ommons.json";version="5.0.3",org.wso2.carbon.apimgt.gateway.handlers.
+ security;uses:="org.apache.commons.logging,org.wso2.carbon.apimgt.gat
+ eway.handlers.security.thrift,org.apache.axiom.om,org.wso2.carbon.api
+ mgt.impl.dto,org.apache.synapse,org.apache.synapse.config,org.apache.
+ synapse.rest,org.apache.axis2,org.wso2.carbon.apimgt.gateway.handlers
+ .security.oauth,org.apache.synapse.rest.dispatch,org.wso2.carbon.metr
+ ics.manager,org.wso2.carbon.apimgt.api.model,org.wso2.carbon.apimgt.g
+ ateway.handlers.security.keys,org.wso2.carbon.apimgt.gateway.handlers
+ ,org.apache.axis2.client,org.apache.synapse.core.axis2,org.wso2.carbo
+ n.apimgt.impl,org.apache.synapse.transport.passthru.util,org.wso2.car
+ bon.context,org.apache.axis2.context,org.wso2.carbon.apimgt.impl.util
+ s,org.apache.axis2.engine,org.apache.synapse.rest.version,org.apache.
+ synapse.core,javax.cache";version="5.0.3",org.wso2.carbon.apimgt.gate
+ way.service;uses:="org.apache.axis2,org.apache.commons.logging,org.ap
+ ache.axis2.databinding.utils,org.wso2.carbon.apimgt.gateway.dto.stub,
+ org.wso2.carbon.core,org.wso2.carbon.rest.api.stub.types.carbon,javax
+ .xml.namespace,org.apache.axiom.om,org.apache.axiom.om.impl.llom.util
+ ,javax.xml.stream,org.wso2.carbon.apimgt.gateway.utils,org.apache.axi
+ s2.databinding.utils.reader,org.wso2.carbon.apimgt.gateway.dto,org.ap
+ ache.axis2.databinding";version="5.0.3",org.wso2.carbon.apimgt.gatewa
+ y.dto.stub;uses:="javax.xml.stream,org.apache.axis2.databinding.utils
+ ,org.apache.axis2.databinding.utils.reader,org.apache.axis2.databindi
+ ng,org.apache.axiom.om,javax.xml.namespace";version="5.0.3",org.wso2.
+ carbon.apimgt.gateway.handlers.security.service;uses:="org.apache.com
+ mons.logging,org.wso2.carbon.context,javax.cache,org.wso2.carbon.medi
+ ation.initializer,org.wso2.carbon.apimgt.impl.utils";version="5.0.3",
+ org.wso2.carbon.apimgt.gateway.utils;uses:="org.apache.axis2,org.wso2
+ .carbon.apimgt.api,org.wso2.carbon.mediation.security.stub,org.wso2.c
+ arbon.rest.api.stub.types.carbon,org.apache.axis2.context,org.wso2.ca
+ rbon.sequences.stub.types,org.wso2.carbon.rest.api.stub,org.apache.ax
+ iom.om";version="5.0.3",org.wso2.carbon.apimgt.gateway.statshandler;u
+ ses:="org.apache.commons.logging,org.apache.axis2.clustering,org.wso2
+ .carbon.apimgt.impl,org.wso2.carbon.core,org.apache.axis2.context,org
+ .wso2.carbon.apimgt.impl.utils,org.wso2.carbon.bam.service.data.publi
+ sher.conf,org.apache.axis2.engine,org.wso2.carbon.bam.service.data.pu
+ blisher.services,org.wso2.carbon.apimgt.api,org.wso2.carbon.apimgt.im
+ pl.internal";version="5.0.3",org.wso2.carbon.apimgt.gateway.handlers.
+ ext;uses:="org.apache.synapse,org.wso2.carbon.metrics.manager,org.apa
+ che.commons.logging,org.apache.synapse.core.axis2,javax.cache,org.apa
+ che.axis2.context,org.wso2.carbon.context,org.apache.synapse.config,o
+ rg.apache.synapse.rest";version="5.0.3",org.wso2.carbon.apimgt.gatewa
+ y.handlers.throttling;uses:="org.wso2.carbon.registry.core.service,or
+ g.apache.synapse.commons.throttle.core.factory,org.apache.commons.log
+ ging,org.wso2.carbon.mediation.registry,org.apache.synapse.commons.th
+ rottle.core,org.apache.axis2.clustering.state,org.apache.axis2.cluste
+ ring,org.wso2.carbon.user.core.tenant,org.apache.axiom.om,org.wso2.ca
+ rbon.apimgt.impl.dto,javax.xml.namespace,org.apache.synapse,javax.xml
+ .stream,org.wso2.carbon.registry.core.exceptions,org.wso2.carbon.util
+ s.multitenancy,org.wso2.carbon.apimgt.api,org.apache.synapse.util,org
+ .apache.synapse.config,org.apache.synapse.rest,org.apache.axiom.om.im
+ pl.llom,org.apache.axis2,org.wso2.carbon.metrics.manager,org.wso2.car
+ bon.user.api,org.wso2.carbon.apimgt.gateway.handlers,org.apache.neeth
+ i,org.wso2.carbon.apimgt.gateway.handlers.security,org.apache.synapse
+ .core.axis2,org.apache.axis2.client,org.wso2.carbon.apimgt.impl,org.a
+ pache.synapse.transport.passthru.util,org.apache.axiom.om.impl.builde
+ r,org.apache.axis2.context,org.wso2.carbon.context,org.apache.axiom.o
+ m.util,org.wso2.carbon.apimgt.impl.utils,javax.activation,org.wso2.ca
+ rbon.user.core.service,org.apache.axis2.engine,org.wso2.carbon.regist
+ ry.core.session,org.wso2.carbon.registry.core";version="5.0.3",org.ws
+ o2.carbon.apimgt.gateway.dto;version="5.0.3"
+Service-Component: OSGI-INF/serviceComponents.xml
+Private-Package: org.wso2.carbon.apimgt.gateway.internal
+Ignore-Package: org.wso2.carbon.apimgt.gateway.internal
+Built-By: wso2
+Tool: Bnd-0.0.238
+Bundle-Name: org.wso2.carbon.apimgt.gateway
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2
+Build-Jdk: 1.7.0_51
+Bundle-Version: 5.0.3
+Bnd-LastModified: 1452076946491
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: WSO2 is an open source application development sof
+ tware company focused on providing service-oriented        architectu
+ re solutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Import-Package: edu.emory.mathcs.backport.java.util,javax.activation;v
+ ersion="[0.0.0, 1.0.0)",javax.cache;version="1.0",javax.net.ssl,javax
+ .xml.namespace,javax.xml.soap;version="[1.0.0, 1.1.0)",javax.xml.stre
+ am;version="[1.0.1, 1.1.0)",org.apache.axiom.om;version="[1.2.11.wso2
+ v6, 1.3.0)",org.apache.axiom.om.impl.builder;version="[1.2.11.wso2v6,
+  1.3.0)",org.apache.axiom.om.impl.llom;version="[1.2.11.wso2v6, 1.3.0
+ )",org.apache.axiom.om.impl.llom.util;version="[1.2.11.wso2v6, 1.3.0)
+ ",org.apache.axiom.om.util;version="[1.2.11.wso2v6, 1.3.0)",org.apach
+ e.axiom.soap;version="[1.2.11.wso2v6, 1.3.0)",org.apache.axis2;versio
+ n="[1.6.1.wso2v11, 1.7.0)",org.apache.axis2.addressing;version="[1.6.
+ 1.wso2v14, 1.7.0)",org.apache.axis2.client;version="[1.6.1.wso2v14, 1
+ .7.0)",org.apache.axis2.clustering;version="[1.6.1.wso2v14, 1.7.0)",o
+ rg.apache.axis2.clustering.state;version="[1.6.1.wso2v14, 1.7.0)",org
+ .apache.axis2.context;version="[1.6.1.wso2v11, 1.7.0)",org.apache.axi
+ s2.databinding;version="[1.6.1.wso2v14, 1.7.0)",org.apache.axis2.data
+ binding.utils;version="[1.6.1.wso2v14, 1.7.0)",org.apache.axis2.datab
+ inding.utils.reader;version="[1.6.1.wso2v14, 1.7.0)",org.apache.axis2
+ .description;version="[1.6.1.wso2v11, 1.7.0)",org.apache.axis2.engine
+ ;version="[1.6.1.wso2v11, 1.7.0)",org.apache.axis2.rpc.receivers;vers
+ ion="[1.6.1.wso2v11, 1.7.0)",org.apache.axis2.transport.base,org.apac
+ he.commons.codec.binary;version="1.4",org.apache.commons.codec.digest
+ ;version="1.4",org.apache.commons.httpclient;version="3.1",org.apache
+ .commons.io;version="2.0",org.apache.commons.lang;version="2.6",org.a
+ pache.commons.logging;version="1.1",org.apache.commons.pool;version="
+ 1.5",org.apache.commons.pool.impl;version="1.5",org.apache.http.clien
+ t;version="4.3.1.wso2v2",org.apache.http.conn;version="4.3.1.wso2v2",
+ org.apache.http.conn.scheme;version="4.3.1.wso2v2",org.apache.http.co
+ nn.ssl;version="4.3.1.wso2v2",org.apache.http.impl.client;version="4.
+ 3.1.wso2v2",org.apache.http.impl.conn;version="4.3.1.wso2v2",org.apac
+ he.neethi;version="2.0.4.wso2v4",org.apache.synapse,org.apache.synaps
+ e.commons.json,org.apache.synapse.commons.throttle.core,org.apache.sy
+ napse.commons.throttle.core.factory,org.apache.synapse.config,org.apa
+ che.synapse.config.xml,org.apache.synapse.core,org.apache.synapse.cor
+ e.axis2,org.apache.synapse.mediators,org.apache.synapse.mediators.bas
+ e,org.apache.synapse.registry,org.apache.synapse.rest,org.apache.syna
+ pse.rest.dispatch,org.apache.synapse.rest.version,org.apache.synapse.
+ transport.passthru.util,org.apache.synapse.util,org.apache.thrift;ver
+ sion="0.8",org.apache.thrift.async;version="0.8.0.wso2v1",org.apache.
+ thrift.meta_data;version="0.8.0.wso2v1",org.apache.thrift.protocol;ve
+ rsion="0.8.0.wso2v1",org.apache.thrift.transport;version="0.8.0.wso2v
+ 1",org.osgi.framework;version="1.3",org.osgi.service.component;versio
+ n="1.0",org.slf4j;version="1.7",org.wso2.carbon.apimgt.api;version="[
+ 5.0.0, 6.0.0)",org.wso2.carbon.apimgt.api.model;version="[5.0.0, 6.0.
+ 0)",org.wso2.carbon.apimgt.api.model.xsd;version="[5.0.0, 6.0.0)",org
+ .wso2.carbon.apimgt.gateway;resolution:=optional;version="5.0.3",org.
+ wso2.carbon.apimgt.gateway.dto;resolution:=optional;version="5.0.3",o
+ rg.wso2.carbon.apimgt.gateway.dto.stub;resolution:=optional;version="
+ 5.0.3",org.wso2.carbon.apimgt.gateway.handlers;resolution:=optional;v
+ ersion="5.0.3",org.wso2.carbon.apimgt.gateway.handlers.common;resolut
+ ion:=optional;version="5.0.3",org.wso2.carbon.apimgt.gateway.handlers
+ .ext;resolution:=optional;version="5.0.3",org.wso2.carbon.apimgt.gate
+ way.handlers.logging;resolution:=optional;version="5.0.3",org.wso2.ca
+ rbon.apimgt.gateway.handlers.security;resolution:=optional;version="5
+ .0.3",org.wso2.carbon.apimgt.gateway.handlers.security.keys;resolutio
+ n:=optional;version="5.0.3",org.wso2.carbon.apimgt.gateway.handlers.s
+ ecurity.oauth;resolution:=optional;version="5.0.3",org.wso2.carbon.ap
+ imgt.gateway.handlers.security.service;resolution:=optional;version="
+ 5.0.3",org.wso2.carbon.apimgt.gateway.handlers.security.thrift;resolu
+ tion:=optional;version="5.0.3",org.wso2.carbon.apimgt.gateway.handler
+ s.throttling;resolution:=optional;version="5.0.3",org.wso2.carbon.api
+ mgt.gateway.mediators;resolution:=optional;version="5.0.3",org.wso2.c
+ arbon.apimgt.gateway.service;resolution:=optional;version="5.0.3",org
+ .wso2.carbon.apimgt.gateway.statshandler;resolution:=optional;version
+ ="5.0.3",org.wso2.carbon.apimgt.gateway.utils;resolution:=optional;ve
+ rsion="5.0.3",org.wso2.carbon.apimgt.impl;version="[5.0.0, 6.0.0)",or
+ g.wso2.carbon.apimgt.impl.dao;version="[5.0.0, 6.0.0)",org.wso2.carbo
+ n.apimgt.impl.dto;version="[5.0.0, 6.0.0)",org.wso2.carbon.apimgt.imp
+ l.dto.xsd;version="[5.0.0, 6.0.0)",org.wso2.carbon.apimgt.impl.genera
+ ted.thrift;version="[5.0.0, 6.0.0)",org.wso2.carbon.apimgt.impl.inter
+ nal;version="[5.0.0, 6.0.0)",org.wso2.carbon.apimgt.impl.utils;versio
+ n="[5.0.0, 6.0.0)",org.wso2.carbon.apimgt.keymgt.stub.validator;versi
+ on="[5.0.0, 6.0.0)",org.wso2.carbon.bam.service.data.publisher.conf;v
+ ersion="4.6",org.wso2.carbon.bam.service.data.publisher.services;vers
+ ion="4.6",org.wso2.carbon.base;version="[1.0.0, 1.1.0)",org.wso2.carb
+ on.context;version="4.4",org.wso2.carbon.core;version="[4.4.1, 4.5.0)
+ ",org.wso2.carbon.mediation.initializer;version="[4.0.0, 5.0.0)",org.
+ wso2.carbon.mediation.initializer.configurations;version="[4.0.0, 5.0
+ .0)",org.wso2.carbon.mediation.registry;version="[4.0.0, 5.0.0)",org.
+ wso2.carbon.mediation.security.stub;version="[4.0.0, 5.0.0)",org.wso2
+ .carbon.metrics.manager;resolution:=optional;version="1.1",org.wso2.c
+ arbon.registry.api;version="[1.0.1, 2.0.0)",org.wso2.carbon.registry.
+ core;version="[1.0.1, 2.0.0)",org.wso2.carbon.registry.core.exception
+ s;version="[1.0.1, 2.0.0)",org.wso2.carbon.registry.core.service;vers
+ ion="[1.0.1, 2.0.0)",org.wso2.carbon.registry.core.session;version="[
+ 1.0.1, 2.0.0)",org.wso2.carbon.rest.api.stub;version="4.5",org.wso2.c
+ arbon.rest.api.stub.types.carbon;version="4.5",org.wso2.carbon.sequen
+ ces.stub.types;version="4.5",org.wso2.carbon.user.api;resolution:=opt
+ ional;version="1.0",org.wso2.carbon.user.core.service;resolution:=opt
+ ional;version="4.4",org.wso2.carbon.user.core.tenant;resolution:=opti
+ onal;version="4.4",org.wso2.carbon.utils;version="[4.4.1, 4.5.0)",org
+ .wso2.carbon.utils.multitenancy;resolution:=optional;version="4.4"
+Bundle-SymbolicName: org.wso2.carbon.apimgt.gateway
+
